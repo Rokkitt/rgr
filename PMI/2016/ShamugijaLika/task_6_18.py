@@ -4,10 +4,13 @@ name = input("\n\nНазовите одно из имен оффицильных
 number = random.randint(1, 3)
 if number == 1 :
  realname = 'Метида'
+ realname = 'Метида'
 elif number == 2 :
+ realname = 'Фемида'
  realname = 'Фемида'
 else :
  realname = 'Гера'
+ realname = 'Фемида'
 if name == realname :
  print("Верно! Это", realname,"\nКак вам удалось угадать?")
 else :
